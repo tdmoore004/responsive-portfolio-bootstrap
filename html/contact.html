@@ -8,12 +8,15 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
     <!-- Nav Bar: Name and links to About and links to About, Portfolio and Contact.-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand mb-1" href="#">
-          <img src="../Assets/Images/tannermoore_name.png" width="" height="20px" alt="Tanner Moore Mountain Logo" loading="lazy">
+          <img class="name-logo" src="../Assets/Images/tannermoore_name.png" width="" height="20px" alt="Tanner Moore Mountain Logo" loading="lazy">
         </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,23 +37,26 @@
     </nav>
 
     <!-- Contact Form: Name, Email, Message and Submit button.-->
-    <form>
-        <h2>Contact</h2>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
-    </form>
-
+    <div class="card mx-auto m-4">    
+        <h4 class="card-header">Contact</h4>
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+            </form>
+        </div> 
+    </div>
     <!-- Footer-->
 
     <!-- Bootstrap JavaScript -->
