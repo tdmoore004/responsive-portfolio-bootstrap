@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html class = "h-100">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +12,9 @@
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
 </head>
-<body>
+<body class="d-flex flex-column">
     <!-- Nav Bar: Name and links to About and links to About, Portfolio and Contact.-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pl-3 bg-transparent sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pl-3 sticky-top">
         <a class="navbar-brand mb-1" width="600px" style="max-width: 50%; min-width: 200px;">
           <img class="name-logo" src="./assets/images/tannermoore_name.png" width="400px" style="max-width: 75%; min-width: 200px;" alt="Tanner Moore Mountain Logo" loading="lazy">
         </a>
@@ -37,31 +37,32 @@
     </nav>
 
     <!-- Contact Form: Name, Email, Message and Submit button.-->
-    <main class="card mx-auto m-4 shadow-sm p-3 mb-5 bg-white rounded col-7">    
+    <main class="card mx-auto m-4 shadow-sm p-3 mb-5 bg-white rounded col-11 col-md-10 col-lg-8 col-xl-7">    
         <h4 class="card-header bg-transparent border-primary">
             Contact
         </h4>
-    <main class="card-body">
-        <form>
-            <section class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-            </section>
-            <section class="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-            </section>
-            <section class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
-            </section>
-            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-        </form>
+        <section class="card-body">
+            <form>
+                <section class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </section>
+                <section class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                </section>
+                <section class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                </section>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </form>
+        </section>
     </main>
 
     <!-- Footer-->
-    <footer class="card fixed-bottom border-bottom-0 border-right-0 border-left-0 border-primary rounded-0 bg-transparent ml-3" style="width: 250px; opacity: 75%;">
-        <img class="bg-transparent my-3 text-muted"src="./assets/images/tannermoore_productions.png" height="12px" width="230px" alt="Tanner Moore Productions" loading="lazy">
+    <footer class="footer mt-auto mx-auto">
+        <img class="bg-transparent my-4 text-muted"src="./assets/images/tannermoore_productions.png" height="12px" width="230px" style="opacity: 75%;" alt="Tanner Moore Productions" loading="lazy">
     </footer>
 
     <!-- Bootstrap JavaScript -->
