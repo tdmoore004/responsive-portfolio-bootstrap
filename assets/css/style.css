@@ -26,6 +26,11 @@ a.navbar-brand img.name-logo {
     color: #007bff;
 }
 
+/* Styles for Contact Form */
+main.container.mx-auto.p-3.bg-white.col-12.col-md-10.col-lg-8.col-xl-6 {
+    max-height: 500px;
+}
+
 /* Footer Styles */
 footer.container.mt-auto.border-top.border-primary.mx-auto {
     width: 260px;
