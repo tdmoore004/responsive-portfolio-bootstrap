@@ -6,9 +6,11 @@ For this project we were tasked with creating a responsive, mobile-first, portfo
 
 ## Screenshot of Webpages
 
-### Desktop Site
-![Tanner Moore: Portfolio](./assets/images/tanner-moore-portfolio.gif)
+### Site on Mobile
+![Tanner Moore: Portfolio](./assets/images/tanner-moore-portfolio-mobile.gif)
 
-### Portfolio
+### Site on Desktop
+![Tanner Moore: Portfolio](./assets/images/tanner-moore-portfolio-desktop.gif)
 
 ## Link to Site
+[Tanner Moore: Portfolio](https://tdmoore004.github.io/responsive-portfolio-bootstrap/)
